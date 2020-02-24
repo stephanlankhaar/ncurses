@@ -1,2 +1,2 @@
-# ncurses
+# Ncurses
 My personal learing experience of ncurses
