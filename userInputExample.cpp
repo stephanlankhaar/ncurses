@@ -1,6 +1,7 @@
 #include <ncurses.h>			/* ncurses.h includes stdio.h */  
 #include <string.h> 
- 
+usint namespace std;
+
 int main()
 {
  char mesg[]="Enter a string: ";		/* message to be appeared on the screen */
