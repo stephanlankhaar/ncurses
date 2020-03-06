@@ -1,6 +1,6 @@
 #include <ncurses.h>			/* ncurses.h includes stdio.h */  
 #include <string.h> 
-usint namespace std;
+using namespace std;
 
 int main()
 {
