@@ -1,7 +1,7 @@
 #include <ncurses.h>
 using namespace std;
 
-int main(){
+int test(){
     initscr();
     int x,y;
     getmaxyx(stdscr, y, x);

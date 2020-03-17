@@ -2,7 +2,7 @@
 #include <string>
 using namespace std;
 
-int main(){
+int testUserInput(){
     char askInput[]="Type here something:";
     char str[100];
     

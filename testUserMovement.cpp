@@ -1,7 +1,7 @@
 #include <ncurses.h>
 using namespace std;
 
-int main(){
+int testUserMovement(){
     initscr();
     noecho();                               // Don't echo the getch() character
 

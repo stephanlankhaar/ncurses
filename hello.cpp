@@ -2,7 +2,7 @@
 #include <string>
 using namespace std;
 
-int main(){
+int hello(){
   // Get terminal screen dimensions.
   int yScr,xScr,yBeg,xBeg,yMax,xMax;
   getyx(stdscr,yScr,xScr);
@@ -113,7 +113,7 @@ int main(){
 
   int Z = wgetch(inputwin);
   if(Z == KEY_UP){
-    mvwprintw(inputwin,1,1, "You're a Hero");
+    mvwprintw(inputwin,1,1, "This is a test");
     wrefresh(inputwin);
   }
   else{

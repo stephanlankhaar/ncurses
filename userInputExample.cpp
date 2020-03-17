@@ -2,7 +2,7 @@
 #include <string.h> 
 using namespace std;
 
-int main()
+int userInputExample()
 {
  char mesg[]="Enter a string: ";		/* message to be appeared on the screen */
  char str[80];

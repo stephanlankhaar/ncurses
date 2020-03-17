@@ -2,7 +2,7 @@
 #include <string>
 using namespace std;
 
-int main(){
+int menu(){
   int row,col;
   char menuTitle[]="What do you want to do right now?";
   initscr();
