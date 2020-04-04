@@ -2,7 +2,7 @@
 #include <string>
 using namespace std;
 
-int menu(){
+int main(){
   int row,col;
   char menuTitle[]="What do you want to do right now?";
   initscr();
@@ -15,7 +15,7 @@ int menu(){
   keypad(menu, true);
 
   wprintw(menu,"%s",menuTitle);
-  string choices[3]=  {"work", "chill", "sleep"};
+  string choices[3]=  {"Edit task", "Add task", "Delete task"};
   int choice;
   int highlight;
 
